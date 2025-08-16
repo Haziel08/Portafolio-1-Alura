@@ -1,13 +1,21 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
-strong{
-    color: #22D4FD;
+
+.titulo-destaque {
+    color: #22D4FD; ;
 }
 
-a{
-    color: #22D4FD;
-    text-decoration: none;
+.presentacion {
+    display: flex;
+    align-items: center;
 }
