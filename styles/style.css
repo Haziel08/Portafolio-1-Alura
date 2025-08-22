@@ -116,3 +116,27 @@ body {
   font-weight: 400;
 }
 
+@media (max-width: 1024px) {
+  .header{
+    padding: 2% 0 4% 0;
+  }
+
+  .header__nav{
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .presentacion {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .presentacion__contenido {
+    width: 100%;
+    text-align: center;
+  }
+
+  .presentacion__imagen {
+    width: 100%;
+  }
+}
